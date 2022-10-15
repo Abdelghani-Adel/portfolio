@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css//style.css" />
 
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Abdelghani Adel</title>
   </head>
@@ -45,40 +50,64 @@
     <!-- Social Links -->
     <div id="socialIcons" class="social-icons">
       <!-- Facebook -->
-      <a class="btn btn-primary" target="_blank" style="background-color: #3b5998;" href="https://www.facebook.com/abdelghani.adel.yaseen/" role="button"
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        style="background-color: #3b5998"
+        href="https://www.facebook.com/abdelghani.adel.yaseen/"
+        role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
       <!-- Twitter -->
-      <a class="btn btn-primary" target="_blank" style="background-color: #55acee;" href="#!" role="button"
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        style="background-color: #55acee"
+        href="#!"
+        role="button"
         ><i class="fab fa-twitter"></i
       ></a>
       <!-- Linkdin -->
-      <a class="btn btn-primary" target="_blank" style="background-color: #0082ca;" href="https://www.linkedin.com/in/abdelghani-adel/" role="button"
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        style="background-color: #0082ca"
+        href="https://www.linkedin.com/in/abdelghani-adel/"
+        role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
       <!-- Stack overflow -->
-      <a class="btn btn-primary" target="_blank" style="background-color: #ffac44;" href="https://stackoverflow.com/users/17890542/abdelghani-adel" role="button"
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        style="background-color: #ffac44"
+        href="https://stackoverflow.com/users/17890542/abdelghani-adel"
+        role="button"
         ><i class="fab fa-stack-overflow"></i
       ></a>
       <!-- Github -->
-      <a class="btn btn-primary" target="_blank" style="background-color: #333333;" href="https://github.com/Abdelghani-Adel" role="button"
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        style="background-color: #333333"
+        href="https://github.com/Abdelghani-Adel"
+        role="button"
         ><i class="fab fa-github"></i
       ></a>
-
     </div>
 
     <div class="container-fluid overflow-hidden p-0 hero">
       <div class="row g-0">
         <div
-          lc-helper="background"
-          class="col-md-6 order-md-2"
+          class="col-md-6 order-md-2 p-6"
           style="
             min-height: 100vh;
             background-size: cover;
             background-position: top;
-            background-image: url('./assets/images/hero.jpg');
+            background-image: url('./assets/images/mypic.JPEG');
           "
         ></div>
+
         <div
           class="col-md-6 order-md-1 my-auto text-start"
           style="padding: 5vw"
@@ -104,39 +133,57 @@
     </div>
 
     <div class="container py-3">
-      <div class="title h1 text-center pb-4">My Projects</div>
+      <h2 class="title h1 text-center pb-4">My Projects</h2>
       <!-- Card Start -->
       <div class="card">
         <div class="row p-3">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
-              <h4 class="card-title">I.T Management Tool</h4>
-              <p class="card-text">
-                Web-based Application 
-              </p>
-              <p class="card-text">
-                Made for usage, commonly searched for. Fork, like and use it.
-                Just move the carousel div above the col containing the text for
-                left alignment of images
-              </p>
+              <!-- Card Title -->
+              <h3 class="fw-bold">I.T Management Tool</h3>
+              <p class="text-muted">React.js + Bootstrap</p>
               <br />
-              <a href="#" class="mt-auto btn btn-primary">Read More</a>
+              <p class="lead text-muted">
+                Web-based Application that handles the daily tasks for the I.T
+                departement in any company.
+              </p>
+              <p class="lead text-muted">
+                You can use this application as a ticketing system for the
+                company, also you can handle your software renewals and license
+                keys and store them here in a safe place.
+              </p>
+
+              <div class="project-buttons">
+                <a
+                  href="https://it-manager.vercel.app"
+                  target="_blank"
+                  class="btn btn-success"
+                  >Live Demo</a
+                >
+
+                <a
+                  href="https://github.com/Abdelghani-Adel/I.T_Manager"
+                  target="_blank"
+                  class="btn btn-dark"
+                  ><i class="fab fa-github"></i> Github Repo</a
+                >
+              </div>
             </div>
           </div>
-          <!-- Carousel start -->
+
+          <!-- Project Picture -->
           <div class="col-md-5 p-2">
-            <img src="./assets/images/itmanager_pic.png" style="width: 98%; border: '1px solid';" alt="">
-          <!-- End of carousel -->
+            <img
+              src="./assets/images/itmanager_pic.png"
+              class="project-pic"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-      <!-- End of card -->
+
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js//script.js"></script>
     </div>
-
-    
-
-  
-
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js//script.js"></script>
   </body>
 </html>
