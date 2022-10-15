@@ -11,7 +11,7 @@ body {
   background-color: rgb(189, 189, 194);
 }
 
-.social-icons {
+#socialIcons {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
@@ -19,7 +19,20 @@ body {
   flex-direction: column;
   padding: 5px;
   z-index: 10;
+  transition: 1s all;
 }
+
+.opacity2 {
+  opacity: 0.2;
+}
+#socialIcons:hover {
+  opacity: 1;
+}
+
 .social-icons > * {
   margin-bottom: 1em;
+}
+
+.social-icons > *:hover {
+  scale: 1.1;
 }
