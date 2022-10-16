@@ -41,10 +41,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" tabindex="-1">Contact Me</a>
@@ -120,13 +120,13 @@
           style="padding: 5vw"
         >
           <div class="lc-block mb-3">
-            <div editable="rich">
-              <h2 class="display-5">Hi, my name is</h2>
-              <h2 class="display-2">
+            <div>
+              <h2 class="display-5 mb-4">Hi, my name is</h2>
+              <h2 class="display-2 mt-4 mb-1">
                 <span class="fw-bolder fm-anton letter-s-2">Abdelghani </span>
                 Adel
               </h2>
-              <p class="lead letter-s-2">
+              <p class="lead letter-s-2 mb-5">
                 Frontend web developer from
                 <i class="fas fa-map-marker"></i> Egypt
               </p>
@@ -141,10 +141,12 @@
       </div>
     </div>
 
-    <div class="container py-3">
-      <h2 class="title h1 text-center pb-4">My Projects</h2>
+    <div class="container py-3" id="projects">
+      <h2 class="title h1 text-center fm-anton fw-bold letter-s-2 pb-4">
+        My Projects
+      </h2>
       <!-- Card Start -->
-      <div class="card">
+      <div class="card mb-3">
         <div class="row p-3">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
@@ -190,6 +192,61 @@
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <div class="row p-3">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <!-- Card Title -->
+              <h3 class="fw-bold">Expense Tracker</h3>
+              <p class="text-muted">React.js + Bootstrap + Typescript</p>
+              <br />
+              <p class="lead text-muted">
+                Web-based Application that handles the daily tasks for the I.T
+                departement in any company.
+              </p>
+              <p class="lead text-muted">
+                You can use this application as a ticketing system for the
+                company, also you can handle your software renewals and license
+                keys and store them here in a safe place.
+              </p>
+
+              <div class="project-buttons">
+                <a
+                  href="https://it-manager.vercel.app"
+                  target="_blank"
+                  class="btn btn-success"
+                  >Live Demo</a
+                >
+
+                <a
+                  href="https://github.com/Abdelghani-Adel/I.T_Manager"
+                  target="_blank"
+                  class="btn btn-dark"
+                  ><i class="fab fa-github"></i> Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Picture -->
+          <div class="col-md-5 p-2">
+            <img
+              src="./assets/images/expense_pic.png"
+              class="project-pic project-pic-green"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="btn btn-primary btn-floating btn-md"
+        id="btn-back-to-top"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </button>
 
       <script src="./js/bootstrap.js"></script>
       <script src="./js//script.js"></script>
