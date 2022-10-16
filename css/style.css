@@ -13,6 +13,9 @@ body {
 .letter-s-2 {
   letter-spacing: 2px;
 }
+.letter-s-3 {
+  letter-spacing: 3px;
+}
 
 /*  */
 .hero {
@@ -53,6 +56,21 @@ body {
 
 /* Project */
 
+.projects--title {
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 4px;
+}
+
+.project--title {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* .project--tool {
+  max-width: 5%;
+} */
+
 .project-pic {
   border: 2px solid;
   width: 98%;
@@ -60,6 +78,12 @@ body {
 
 .project-pic-green {
   border-color: #198754;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
 }
 
 /* utilities */

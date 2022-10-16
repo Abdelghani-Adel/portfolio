@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,6 +15,7 @@
       rel="stylesheet"
     />
 
+    <!-- Fontawesome Icons -->
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
@@ -24,6 +26,7 @@
     <title>Abdelghani Adel</title>
   </head>
   <body>
+    <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Abdelghani Adel</a>
@@ -53,8 +56,9 @@
         </div>
       </div>
     </nav>
+    <!-- End Navbar -->
 
-    <!-- Social Links -->
+    <!-- Start Social Links -->
     <div id="socialIcons" class="social-icons">
       <!-- Facebook -->
       <a
@@ -102,7 +106,9 @@
         ><i class="fab fa-github"></i
       ></a>
     </div>
+    <!-- End Social Links -->
 
+    <!-- Start Hero Section -->
     <div class="container-fluid overflow-hidden p-0 hero">
       <div class="row g-0">
         <div
@@ -136,24 +142,33 @@
           <div class="lc-block">
             <a class="btn btn-success" href="#" role="button">Contact Me</a>
           </div>
-          <!-- /lc-block -->
         </div>
       </div>
     </div>
+    <!-- End Hero Section -->
 
-    <div class="container py-3" id="projects">
-      <h2 class="title h1 text-center fm-anton fw-bold letter-s-2 pb-4">
-        My Projects
-      </h2>
-      <!-- Card Start -->
+    <!-- Start My Projects -->
+    <div class="container py-5" id="projects">
+      <!-- Title -->
+      <h2 class="display-5 pb-4 projects--title">My Projects</h2>
+      <!-- I.T Management Project -->
       <div class="card mb-3">
         <div class="row p-3">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
-              <!-- Card Title -->
-              <h3 class="fw-bold">I.T Management Tool</h3>
-              <p class="text-muted">React.js + Bootstrap</p>
-              <br />
+              <h3 class="project--title">I.T Management Tool</h3>
+
+              <div class="project--tools my-2">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/32px-React-icon.svg.png"
+                  class="project--tool"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/32px-Bootstrap_logo.svg.png"
+                  class="project--tool"
+                />
+              </div>
+
               <p class="lead text-muted">
                 Web-based Application that handles the daily tasks for the I.T
                 departement in any company.
@@ -193,14 +208,24 @@
         </div>
       </div>
 
+      <!-- Expense Tracker Project -->
       <div class="card">
         <div class="row p-3">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
-              <!-- Card Title -->
               <h3 class="fw-bold">Expense Tracker</h3>
-              <p class="text-muted">React.js + Bootstrap + Typescript</p>
-              <br />
+
+              <div class="project--tools my-2">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/32px-React-icon.svg.png"
+                  class="project--tool"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/32px-Typescript_logo_2020.svg.png"
+                  class="project--tool"
+                />
+              </div>
+
               <p class="lead text-muted">
                 Web-based Application that handles the daily tasks for the I.T
                 departement in any company.
@@ -239,133 +264,100 @@
           </div>
         </div>
       </div>
-
-      <button
-        type="button"
-        class="btn btn-primary btn-floating btn-md"
-        id="btn-back-to-top"
-      >
-        <i class="fas fa-arrow-up"></i>
-      </button>
     </div>
+    <!-- End My Projects -->
 
     <!-- Footer -->
-    <footer
-      class="text-center text-lg-start text-white py-4"
-      id="contact"
-      style="background-color: #929fba"
-    >
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Links -->
-        <section class="">
-          <!--Grid row-->
-          <div class="row">
-            <!-- Grid column -->
-            <!-- <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">
-                  Company name
-                </h6>
-                <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                </p>
-              </div> -->
-            <!-- Grid column -->
-
-            <!-- <hr class="w-100 clearfix d-md-none" /> -->
-
-            <!-- Grid column -->
-            <div class="col-md-4">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Projects</h6>
-              <p>
-                <a class="text-white">I.T Management</a>
-              </p>
-              <p>
-                <a class="text-white">Expense Tracker</a>
-              </p>
-              <p>
-                <a class="text-white">Productivity App</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- <hr class="w-100 clearfix d-md-none" /> -->
-
-            <!-- Grid column -->
-            <!-- <hr class="w-100 clearfix d-md-none" /> -->
-
-            <!-- Grid column -->
-            <div class="col-md-4">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-              <p><i class="fas fa-home mr-3"></i> Hurghada, Egypt</p>
-              <p>
-                <i class="fas fa-envelope mr-3"></i> abdelghani.adel@outlook.com
-              </p>
-              <p><i class="fas fa-phone mr-3"></i> +2 01027111007</p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Follow me</h6>
-
-              <!-- Facebook -->
-              <a
-                class="btn btn-primary btn-floating m-1"
-                target="_blank"
-                style="background-color: #3b5998"
-                href="https://www.facebook.com/abdelghani.adel.yaseen/"
-                role="button"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <!-- Twitter -->
-              <a
-                class="btn btn-primary btn-floating m-1"
-                target="_blank"
-                style="background-color: #55acee"
-                href="#!"
-                role="button"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <!-- Linkdin -->
-              <a
-                class="btn btn-primary btn-floating m-1"
-                target="_blank"
-                style="background-color: #0082ca"
-                href="https://www.linkedin.com/in/abdelghani-adel/"
-                role="button"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-              <!-- Stack overflow -->
-              <a
-                class="btn btn-primary btn-floating m-1"
-                target="_blank"
-                style="background-color: #ffac44"
-                href="https://stackoverflow.com/users/17890542/abdelghani-adel"
-                role="button"
-                ><i class="fab fa-stack-overflow"></i
-              ></a>
-              <!-- Github -->
-              <a
-                class="btn btn-primary btn-floating m-1"
-                target="_blank"
-                style="background-color: #333333"
-                href="https://github.com/Abdelghani-Adel"
-                role="button"
-                ><i class="fab fa-github"></i
-              ></a>
-            </div>
+    <footer class="footer p-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <!-- Projects -->
+          <div class="col-md-4">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Projects</h6>
+            <p>
+              <a class="text-white">I.T Management</a>
+            </p>
+            <p>
+              <a class="text-white">Expense Tracker</a>
+            </p>
+            <p>
+              <a class="text-white">Productivity App</a>
+            </p>
           </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
+          <!-- Projects -->
+
+          <!-- Contacts -->
+          <div class="col-md-4">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Hurghada, Egypt</p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> abdelghani.adel@outlook.com
+            </p>
+            <p><i class="fas fa-phone mr-3"></i> +2 01027111007</p>
+          </div>
+          <!-- Contacts -->
+
+          <!-- Social Links -->
+          <div class="col-md-4">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow me</h6>
+            <a
+              class="btn btn-primary btn-floating m-1"
+              target="_blank"
+              style="background-color: #3b5998"
+              href="https://www.facebook.com/abdelghani.adel.yaseen/"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-floating m-1"
+              target="_blank"
+              style="background-color: #55acee"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-floating m-1"
+              target="_blank"
+              style="background-color: #0082ca"
+              href="https://www.linkedin.com/in/abdelghani-adel/"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-floating m-1"
+              target="_blank"
+              style="background-color: #ffac44"
+              href="https://stackoverflow.com/users/17890542/abdelghani-adel"
+              role="button"
+              ><i class="fab fa-stack-overflow"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-floating m-1"
+              target="_blank"
+              style="background-color: #333333"
+              href="https://github.com/Abdelghani-Adel"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+          <!-- Social Links -->
+        </div>
       </div>
-      <!-- Grid container -->
     </footer>
     <!-- Footer -->
-    <!-- End of .container -->
+
+    <!-- Start Back to top button -->
+    <button
+      type="button"
+      class="btn btn-primary btn-floating btn-md"
+      id="btn-back-to-top"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- End of Back to top button -->
+
+    <!-- Javascript Files -->
     <script src="./js/bootstrap.js"></script>
     <script src="./js//script.js"></script>
   </body>
