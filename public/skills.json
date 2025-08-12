@@ -1,0 +1,14 @@
+{
+  "programming": ["JavaScript", "TypeScript", "Java", "C#"],
+  "frontend": ["React", "Next.js", "Tailwind CSS", "Bootstrap", "shadcn"],
+  "backend": ["Node.js", "Express", ".NET Core", "Spring Boot", "REST APIs"],
+  "databases": ["MySQL", "PostgreSQL"],
+  "tools": ["Git", "Vercel", "Figma", "Postman", "Jenkins"],
+  "design": [
+    "Figma",
+    "Adobe PS",
+    "UI/UX Design",
+    "Responsive Design",
+    "Prototyping"
+  ]
+}

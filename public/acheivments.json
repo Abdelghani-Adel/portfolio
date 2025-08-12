@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Best Hack - Algorithm",
+    "issuer": "TechFest 2024",
+    "date": "March 2024",
+    "description": "Awarded for developing an innovative sorting algorithm that improved performance by 40%",
+    "icon": "🏆"
+  },
+  {
+    "title": "Top 100 - LinkedIn Egypt (#90)",
+    "issuer": "Favicon",
+    "date": "August 2025",
+    "description": "Recognized among the Top 100 professionals in Egypt on LinkedIn, ranking #90 in August 2025.",
+    "icon": "🏅9️⃣0️⃣"
+  },
+  {
+    "title": "Dean's List",
+    "issuer": "University",
+    "date": "2023",
+    "description": "Achieved academic excellence with GPA above 3.8 for consecutive semesters",
+    "icon": "🎓"
+  },
+  {
+    "title": "Python Certification",
+    "issuer": "Coursera",
+    "date": "2023",
+    "description": "Completed advanced Python programming certification with distinction",
+    "icon": "🐍"
+  }
+]

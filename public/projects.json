@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "E-Learning Platform",
+    "description": "An interactive learning platform designed for students and educators, offering course management, video content, quizzes, and progress tracking.",
+    "image": "/projects/i-learna/dashboard.png",
+    "technologies": ["Next.js", "TypeScript", "Tailwind", "ShadCN"],
+    "demoUrl": "https://i-learna-platform.vercel.app/",
+    "liveUrl": "https://ilearna.com/"
+  },
+  {
+    "id": 3,
+    "title": "Parking Management System",
+    "description": "A modern web app that streamlines the process of managing vehicle entries, exits, and space allocation in parking facilities with real-time dashboard insights.",
+    "image": "/projects/parking/dashboard.png",
+    "technologies": ["Next.js", "TypeScript", "Tailwind", "ShadCN"],
+    "demoUrl": "",
+    "liveUrl": ""
+  },
+  {
+    "id": 2,
+    "title": "Fleet GPS Tracking",
+    "description": "A real-time fleet tracking system that provides live location updates, trip history, and performance analytics using integrated GPS and server-side APIs.",
+    "image": "/projects/gps/dashboard.png",
+    "technologies": ["React", "SpringBoot"],
+    "demoUrl": "",
+    "liveUrl": ""
+  },
+  {
+    "id": 4,
+    "title": "Fox-Travel Website",
+    "description": "A travel booking and exploration platform featuring destination guides, user reviews, and integrated booking services with a clean, user-friendly UI.",
+    "image": "/projects/fox-travel/dashboard.png",
+    "technologies": ["Next.js", "TypeScript", "PostgreSQL", "Tailwind"],
+    "demoUrl": "",
+    "liveUrl": ""
+  },
+  {
+    "id": 5,
+    "title": "LTS Website",
+    "description": "A sleek, responsive corporate website for showcasing services, testimonials, and company information with an emphasis on performance and accessibility.",
+    "image": "/projects/lts/dashboard.png",
+    "technologies": ["Next.js", "TypeScript", "Tailwind"],
+    "demoUrl": "",
+    "liveUrl": ""
+  },
+  {
+    "id": 6,
+    "title": "CMS Dashboard",
+    "description": "A content management system dashboard that enables users to manage pages, media, and roles with a customizable interface and backend integration.",
+    "image": "/projects/cms/dashboard.png",
+    "technologies": ["React", "TypeScript", "PostgreSQL", "Tailwind"],
+    "demoUrl": "",
+    "liveUrl": ""
+  }
+]
