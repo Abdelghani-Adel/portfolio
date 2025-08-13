@@ -11,37 +11,37 @@ const Header = () => {
           </div>
           <div className="hidden md:flex space-x-8">
             <a
-              href="#home"
+              href="/#home"
               className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Home
             </a>
             <a
-              href="#about"
+              href="/#about"
               className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               About
             </a>
             <a
-              href="#projects"
+              href="/#projects"
               className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Projects
             </a>
             <a
-              href="#skills"
+              href="/#skills"
               className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Skills
             </a>
             <a
-              href="#achievements"
+              href="/#achievements"
               className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Achievements
             </a>
             <a
-              href="#contact"
+              href="/#contact"
               className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Contact
