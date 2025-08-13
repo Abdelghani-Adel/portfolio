@@ -1,13 +1,13 @@
-import BreifVariableBox from "./components/BreifVariableBox";
-import Hero from "./components/Hero";
+import BreifVariableBox from "../components/BreifVariableBox";
+import Hero from "../components/Hero";
 
-import AboutMe from "./components/AboutMe";
-import AcheivmentsCardsList from "./components/AcheivmentsCardsList";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import ProjectsCardsList from "./components/ProjectsCardsList";
-import SkillsCardsList from "./components/SkillsCardsList";
+import AboutMe from "../components/AboutMe";
+import AcheivmentsCardsList from "../components/AcheivmentsCardsList";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import ProjectsCardsList from "../components/ProjectsCardsList";
+import SkillsCardsList from "../components/SkillsCardsList";
 
 const Portfolio = () => {
   return (

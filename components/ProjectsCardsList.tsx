@@ -20,11 +20,23 @@ const ProjectsCardsList = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 shadow-md border border-gray-200 dark:border-gray-700"
+              className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 shadow-md border border-gray-200 dark:border-gray-700 relative cursor-pointer"
             >
               <div className="h-48 relative bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center">
-                <Image src={project.image} fill alt="" />
+                <Image
+                  src={project.image}
+                  fill
+                  alt=""
+                  className="object-cover"
+                />
               </div>
+
+              {project.isPrivate && (
+                <span className="absolute bottom-2 right-2 bg-red-500 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-md">
+                  🔒 Private
+                </span>
+              )}
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-700 dark:text-gray-400 mb-4 text-sm">
